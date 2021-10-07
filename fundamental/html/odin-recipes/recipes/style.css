@@ -1,0 +1,13 @@
+body {
+	background-color: hsl(25, 52%, 68%)
+}
+
+h1 {
+	text-align: center;
+	color: whitesmoke;
+	background-color: hsl(200, 35%, 25%);
+}
+
+h3 {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

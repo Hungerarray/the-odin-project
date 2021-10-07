@@ -1,0 +1,3 @@
+[submodule "fundamental/css-exercises"]
+	path = fundamental/css-exercises
+	url = git@github.com:Hungerarray/css-exercises.git

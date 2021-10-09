@@ -1,3 +1,6 @@
 [submodule "fundamental/css-exercises"]
 	path = fundamental/css-exercises
 	url = https://github.com/Hungerarray/css-exercises.git
+[submodule "fundamental/js/javascript-exercises"]
+	path = fundamental/js/javascript-exercises
+	url = https://github.com/Hungerarray/javascript-exercises.git

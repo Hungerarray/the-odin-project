@@ -5,3 +5,12 @@ A repository containing all the exercises and projects I made while following [T
 ***
 
 ![The Odin Project !](https://www.groupsforlearning.com/assets/odinProject.png)
+
+***
+
+### Install
+
+
+```
+git clone --recursive <repo-link>
+```

@@ -1,20 +1,32 @@
 body {
-	background-color: rgb(40, 42, 54);
+  background-color: rgb(40, 42, 54);
 }
 
 h1 {
-	font-weight: bold;
-	text-align: center;
-	color: whitesmoke;
-	background-color: hsl(232, 20%, 27%);
+  font-weight: bold;
+  text-align: center;
+  color: whitesmoke;
+  background-color: hsl(232, 20%, 27%);
 }
 
-ul li a{
-	margin: 10pt;
-	text-decoration: none;
-	font-size: 34px;
-	font-style: normal;
-	color:wheat;
+ul li a {
+  margin: 10pt;
+  text-decoration: none;
+  font-size: 34px;
+  font-style: normal;
+  color: wheat;
+}
+footer {
+  color: #fff;
+  display: flex;
+  align-items: center;
 }
 
- 
+#github {
+  height: 1.5em;
+  width: auto;
+}
+
+#github:hover {
+  transform: scale(1.5, 1.5);
+}

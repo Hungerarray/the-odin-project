@@ -6,14 +6,92 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>The Odin Project - Projects Completed</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Lobster&display=swap" rel="stylesheet">
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			text-decoration: none;
+			list-style: none;
+			color: #fff;
+			text-shadow: 0 0 5px #fff;
+		}
+
+		body {
+			min-height: 100vh;
+			display: flex;
+			flex-flow: column;
+			justify-content: space-between;
+			background-color: #4a00ba;
+		}
+
+		header {
+			padding: 1em 1.5em;
+			font-size: 3em;
+			text-align: center;
+			flex-shrink: 0;
+			background-color: #3e0599;
+			text-shadow: 0 0 10px #fff;
+			margin-bottom: 1em;
+			text-transform: capitalize;
+			font-family: 'Ephesis', cursive;
+		}
+
+		ul {
+			display: flex;
+			flex-flow: column;
+			align-items: center;
+			gap: 1em;
+			flex-grow: 1;
+		}
+
+		a {
+			transition: 0.5s;
+			font-size: 1.5em;
+			text-transform: capitalize;
+			font-family: 'Lobster', cursive;
+		}
+
+		a:hover {
+			font-size: 2em;
+		}
+
+		footer {
+			flex-shrink: 0;
+			text-align: center;
+			text-shadow: 0 0 0px #fff;
+		}
+
+		footer img {
+			width: 1em;
+			height: auto;
+			transition: 0.2s;
+		}
+
+		footer img:hover {
+			transform: scale(1.1);
+		}
+	</style>
 </head>
 
 <body>
+	<header>List of projects</header>
 	<ul>
 		<li><a href="./fundamental/html/odin-recipes/index.html">The Odin Recipies</a></li>
 		<li><a href="./fundamental/landing-page/index.html">Landing Page</a></li>
 		<li><a href="./fundamental/js/rock-paper-scissors/index.html">Rock Paper Scissors</a></li>
+		<li><a href="./fundamental/js/etch-a-sketch/index.html">Etch a sketch</a></li>
 	</ul>
+	<footer>
+		Copyright &copy; Hungerarray
+		<a href="https://github.com/hungerarray">
+			<img src="logos/Github-light.png" alt="github logo"></a>
+	</footer>
 </body>
 
 </html>

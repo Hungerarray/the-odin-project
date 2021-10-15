@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etch a Sketch</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Andada+Pro:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>Etch a Sketch</h1>
+  </header>
+
+  <div id="content">
+    <ul id="controls">
+      <li>
+        <p>Color</p>
+        <input type="color" id="color">
+      </li>
+      <li>
+        <input type="range" min="5" max="100" value="16" id="slider">
+        <p id="slider-value"></p>
+      </li>
+      <li>
+        <div class="button" id="grid-lines">Grid Lines</div>
+      </li>
+      <li>
+        <div class="button" id="clear">clear</button>
+      </li>
+
+    </ul>
+    <div id="canvas"></div>
+  </div>
+
+  <footer>
+    Copyright &copy; Hungerarray
+    <a href="https://github.com/hungerarray">
+      <img id="github" src="images/Github-dark.png" alt="github link">
+    </a>
+  </footer>
+</body>
+
+</html>

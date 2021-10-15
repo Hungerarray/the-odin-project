@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  background-color: rgb(218, 214, 181);
+  font-family: 'Andada Pro', serif;
+}
+
+header {
+  flex-shrink: 0;
+  text-align: center;
+  padding: 1em;
+  text-transform: capitalize;
+  font-size: 1.5em;
+  font-style: italic;
+  font-family: 'Alex Brush', cursive;
+  background-color:hsl(0, 45%, 50%);
+}
+
+#content {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+#controls {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+ul {
+  list-style: none;
+}
+
+.button {
+  padding: 0.5em 1em;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 97%);
+  border: 2px solid black;
+  transition: 0.5s;
+}
+
+.button:hover {
+  box-shadow: 0 0 8px black;
+  cursor: pointer;
+}
+
+.clicked {
+    transform: scale(0.95);
+    background-image: radial-gradient(#fff, #cacaca);
+}
+
+li {
+    display: flex;
+    gap: 0.5em;
+}
+
+#slider {
+    background-color: #8a8989;
+    outline: none;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+#slider:hover {
+    opacity: 1;
+}
+
+#slider-value {
+    font-size: 0.8em;
+    text-align: center;
+    font-weight: bold;
+}
+
+#canvas {
+  width: 75vw;
+  height: 75vh;
+  background-color: #f8f8f8;
+  border: 1px solid blue;
+}
+
+footer {
+  flex-shrink: 0;
+  text-align: center;
+  padding: 0.5em;
+}
+
+#github {
+  height: 1em;
+  width: auto;
+  transition: 0.5s;
+}
+
+#github:hover {
+  transform: scale(1.5, 1.5);
+}

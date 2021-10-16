@@ -12,14 +12,18 @@ function buttonHandler(e) {
   const button = e.target.innerText;
   if (inf) return;
   else if (button.includes(".")) {
-    if (currDec) return;
-    currDisplay.innerText += button;
-    currDec = true;
+    return decButton(button);
   } else if (isNaN(button)) {
     actionButton(button);
   } else {
     numberButton(button);
   }
+}
+
+function decButton(dec) {
+  if (currDec) return;
+  currDisplay.innerText += dec;
+  currDec = true;
 }
 
 function numberButton(number) {
@@ -31,10 +35,12 @@ function actionButton(action) {
   if (action.search(/[-+*/]/g) !== -1) {
     operateHandle(action);
   } else if (action.includes("DEL")) {
+    if (currDisplay.innerText.length === 0) reset();
     currDisplay.innerText = currDisplay.innerText.slice(0, -1);
   } else if (action.includes("RESET")) {
     reset();
   } else {
+    if (currOperator === "") return;
     const result = compute(currOperator);
     if (divBy0(result)) return;
     reset();
@@ -127,4 +133,31 @@ function compute(operand) {
 
 // ----------------------------------------------------- //
 // ---------------- operator section end --------------- //
+// ----------------------------------------------------- //
+
+// ----------------------------------------------------- //
+// ---------------- keyboard section begin ------------- //
+// ----------------------------------------------------- //
+
+document.addEventListener("keydown", keyboardInput);
+
+function keyboardInput(e) {
+  console.log(keyInput);
+  if (keyInput.search(/[0-9]/) !== -1) {
+    numberButton(keyInput);
+  } else if (keyInput.includes(".")) {
+    decButton(keyInput);
+  } else if (keyInput.search(/[-+*/]/) !== -1) {
+    actionButton(keyInput);
+  }
+
+  let morphedInput = keyInput.replace(/Enter/, "=");
+  if (morphedInput.includes("=")) actionButton(morphedInput);
+
+  morphedInput = keyInput.replace(/Backspace|Delete/, "DEL");
+  if (morphedInput.includes("DEL")) actionButton(morphedInput);
+}
+
+// ----------------------------------------------------- //
+// ---------------- keyboard section end --------------- //
 // ----------------------------------------------------- //

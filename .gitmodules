@@ -4,3 +4,7 @@
 [submodule "fundamental/js/javascript-exercises"]
 	path = fundamental/js/javascript-exercises
 	url = https://github.com/Hungerarray/javascript-exercises.git
+
+[submodule "Ruby-path/ruby-exercises"]
+	path = Ruby-path/ruby-exercises
+	url = https://github.com/Hungerarray/ruby-exercises.git

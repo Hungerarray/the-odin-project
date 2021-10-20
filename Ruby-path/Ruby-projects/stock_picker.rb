@@ -1,19 +1,22 @@
 # frozen_string_literal: true
 
 def stock_picker(stocks)
-  max_stocks = []
-  # for each day, find the maximum among the remaining days
-  stocks.each_with_index do |stock, day|
-    nxt_day = day + 1
-    mstock = stocks[nxt_day..-1].max || 0
-    mstock_day = stocks.index(mstock)
-    max_stocks.push([day, mstock_day, mstock - stock])
+  curr_max = local_min = curr_min = stocks[0]
+  curr_diff = curr_max - curr_min
+
+  stocks.each do |stock|
+    local_min = local_min < stock ? local_min : stock
+    new_diff = stock - local_min
+    next unless curr_diff < new_diff
+
+    curr_max = stock
+    curr_min = local_min
+    curr_diff = new_diff
   end
-  # find the maximum and the corresponding days
-  max_stock = max_stocks.max_by { |stock| stock[2] }
-  max_stock[0...-1]
+
+  [stocks.index(curr_min), stocks.index(curr_max)]
 end
 
 stocks = [17, 3, 6, 9, 15, 8, 6, 1, 10]
-stock_days = stock_picker(stocks)
-pp stock_days
+
+pp stock_picker(stocks)

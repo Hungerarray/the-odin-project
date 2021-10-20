@@ -2,7 +2,8 @@
 
 def substrings(text, dictionary)
   dictionary.each_with_object(Hash.new(0)) do |value, total|
-    matches = text.scan(Regexp.new(value, Regexp::IGNORECASE))
+    reg_exp = Regexp.new(value, Regexp::IGNORECASE)
+    matches = text.scan(reg_exp)
     total[value] = matches.length unless matches.length.zero?
   end
 end

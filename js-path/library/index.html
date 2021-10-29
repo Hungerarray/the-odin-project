@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Library</title>
+
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+	<script src="https://kit.fontawesome.com/5f9da95d5b.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<h1 class="title">My Library</h1>
+	</header>
+	<div class="content">
+		<div class="buttons">
+			<div class="btn btn-del">
+				<i class="fas fa-trash-alt"></i>
+				<p class="btn-tooltip">Remove All</p>
+			</div>
+			<div class="btn btn-add">
+				<i class="fas fa-plus"></i>
+				<p class="btn-tooltip">Add Book</p>
+			</div>
+		</div>
+		<div class="cards">
+		</div>
+	</div>
+	<div class="add-ui">
+		<div class="add-box">
+			<form id="add-book-form" class="add-form">
+				<h4 class="add-book-ui add-book-header">Add A Book</h4>
+				<label for="book-title" class="add-book-ui add-book-title" required="required">
+					Book Title: <input type="text" name="Book Title" id="book-title">
+				</label>
+				<label for="book-author" class="add-book-ui add-book-author" required="required">
+					Book Author: <input type="text" name="Book Author" id="book-author">
+					</label>
+				<label for="book-pages" class="add-book-ui add-book-pages" required="required">
+					Pages: <input type="number" name="Book Pages" id="book-pages">
+				</label>
+				<label for="book-read" class="add-book-ui add-book-read">
+					Mark as Read <input type="checkbox" name="Book Read" id="book-read">
+				</label>
+				<input type="submit" value="Submit" class="add-book-ui add-book-submit">
+			</form>
+
+		</div>
+	</div>
+	<footer>
+		<p>
+			&copy; Copyright Hungerarray
+			<a href="https://github.com/hungerarray">
+				<i class="fab fa-github"></i>
+			</a>
+		</p>
+	</footer>
+</body>
+
+</html>

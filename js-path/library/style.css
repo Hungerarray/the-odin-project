@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+header {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin: 1rem;
+  height: 35vh;
+  width: 100%;
+  background-image: linear-gradient(to right bottom, #0951bc, #6861ca, #9b72d7, #c886e3, #f09cef);
+  font-weight: 400;
+  font-size: 2rem;
+  font-family: "Courgette", cursive;
+  color: white;
+  text-shadow: 0 0 10px #3737f3;
+}
+
+.content {
+  flex-grow: 1;
+  width: 90%;
+  height: auto;
+  background-color: white;
+  margin-top: -7%;
+  box-shadow: 0 0 8px #4b4a4a;
+  border-radius: 20px;
+}
+.content .buttons {
+  display: flex;
+  flex-flow: row-reverse;
+}
+.content .btn, .content .btn-del, .content .btn-add {
+  padding: 0.8rem 1.4rem;
+  font-size: 1rem;
+  margin: 0.5rem;
+  border-radius: 5px;
+  background-color: #f2eeee;
+  transition: 0.1s;
+  text-align: center;
+}
+.content .btn:hover, .content .btn-del:hover, .content .btn-add:hover {
+  cursor: pointer;
+}
+.content .btn-add:hover {
+  background-color: #1fb61f;
+  color: white;
+  font-size: 1.3rem;
+}
+.content .btn-add:active, .content .add-ui input.btn-add[type=text]:focus, .content .add-ui input.btn-add[type=number]:focus, .add-ui .content input.btn-add[type=text]:focus, .add-ui .content input.btn-add[type=number]:focus {
+  color: darkgreen;
+}
+.content .btn-del:hover {
+  background-color: #fb5050;
+  color: white;
+  font-size: 1.3rem;
+}
+.content .btn-del:active, .content .add-ui input.btn-del[type=text]:focus, .content .add-ui input.btn-del[type=number]:focus, .add-ui .content input.btn-del[type=text]:focus, .add-ui .content input.btn-del[type=number]:focus {
+  color: darkred;
+}
+.content .cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.content .cards-empty {
+  width: 100%;
+  height: 100%;
+  font-size: 3rem;
+  text-align: center;
+  color: rgba(154, 154, 219, 0.603);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content .card {
+  border-radius: 10px;
+  margin: 1rem;
+  box-shadow: 0 0 5px #6666ec;
+  padding: 1rem;
+  display: flex;
+  flex-flow: column;
+}
+.content .card min {
+  width: 250px;
+  height: 250px;
+}
+.content .card:hover {
+  box-shadow: 0 0 10px #0f0f77;
+}
+.content .card-title {
+  flex-grow: 1;
+  margin: 3px;
+}
+.content .card-author {
+  margin: 3px;
+  flex-shrink: 0;
+}
+.content .card-pages {
+  margin: 3px;
+  flex-shrink: 0;
+}
+.content .card-read {
+  background-color: #8ff88f;
+}
+
+.add-ui {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+.add-ui input[type=text], .add-ui input[type=number], .add-ui input[type=number]:focus, .add-ui input[type=text][type=number], .add-ui input[type=number], .add-ui input[type=text]:focus {
+  height: 2.5rem;
+  max-width: 75%;
+  line-height: 75%;
+  padding: 0.75rem 0.3rem;
+  border: 2px solid lightgray;
+  border-radius: 8px;
+  font-size: 1.3rem;
+}
+.add-ui input[type=text]:hover, .add-ui input[type=number]:hover {
+  box-shadow: 0 0 5px #6161f7;
+}
+.add-ui input[type=text]:active, .add-ui input[type=number]:active, .add-ui input[type=text]:focus, .add-ui input[type=number]:focus {
+  border: 3px solid #6060c2;
+}
+.add-ui input[type=text]:focus, .add-ui input[type=number]:focus {
+  outline: none;
+}
+.add-ui input[type=submit], .add-ui input[type=submit][type=text]:focus, .add-ui input[type=submit][type=number] {
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: 0.5px solid gray;
+}
+.add-ui input[type=submit]:hover {
+  box-shadow: 0 0 5px blue;
+}
+.add-ui input[type=submit]:active, .add-ui input[type=submit][type=text]:focus, .add-ui input[type=submit][type=number]:focus {
+  box-shadow: 2px 2px 2px blue;
+}
+.add-ui input[type=checkbox], .add-ui input[type=checkbox][type=text]:focus, .add-ui input[type=checkbox][type=number] {
+  height: 1.3rem;
+  width: 1.3rem;
+}
+.add-box {
+  min-width: 50%;
+  min-height: 50%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 8px whitesmoke;
+  padding: 1rem;
+}
+.add-form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.add-book-ui {
+  display: block;
+  margin: 0.75rem;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
+footer {
+  flex-shrink: 0;
+  text-align: center;
+  padding: 1rem;
+}
+footer font {
+  size: 1.5rem;
+}
+footer i {
+  font-size: 1.1rem;
+  margin-left: 0.3rem;
+  color: black;
+  transition: 0.7s;
+}
+footer i:hover {
+  transform: scale(1.5) rotate(720deg);
+}
+
+/*# sourceMappingURL=style.css.map */

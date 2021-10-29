@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+header {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin: 1rem;
+  height: 35vh;
+  width: 100%;
+  background-image: linear-gradient(
+    to right bottom,
+    #0951bc,
+    #6861ca,
+    #9b72d7,
+    #c886e3,
+    #f09cef
+  );
+  font : {
+    weight: 400;
+    size: 2rem;
+    family: "Courgette", cursive;
+  }
+  color: hsl(0, 10%, 100%);
+  text-shadow: 0 0 10px rgb(55, 55, 243);
+}
+
+.content {
+  flex-grow: 1;
+  width: 90%;
+  height: auto;
+  background-color: white;
+  margin-top: -7%;
+  box-shadow: 0 0 8px rgb(75, 74, 74);
+  border-radius: 20px;
+
+  .buttons {
+    display: flex;
+    flex-flow: row-reverse;
+  }
+
+  .btn {
+    padding: 0.8rem 1.4rem;
+    font-size: 1rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    background-color: hsl(0, 12%, 94%);
+    transition: 0.1s;
+    text-align: center;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &-add {
+      @extend .btn;
+
+      &:hover {
+        background-color: rgb(31, 182, 31);
+        color: white;
+        font-size: 1.3rem;
+      }
+
+      &:active {
+        color: darkgreen;
+      }
+    }
+
+    &-del {
+      @extend .btn;
+
+      &:hover {
+        background-color: rgb(251, 80, 80);
+        color: white;
+        font-size: 1.3rem;
+      }
+
+      &:active {
+        color: darkred;
+      }
+    }
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+    &-empty {
+      width: 100%;
+      height: 100%;
+      font-size: 3rem;
+      text-align: center;
+      color: rgba(154, 154, 219, 0.603);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .card {
+    $box-shadow-color: rgb(102, 102, 236);
+    border-radius: 10px;
+    margin: 1rem;
+    box-shadow: 0 0 5px $box-shadow-color;
+    padding: 1rem;
+    min {
+      width: 250px;
+      height: 250px;
+    }
+
+    display: flex;
+    flex-flow: column;
+
+    &:hover {
+      box-shadow: 0 0 10px darken($box-shadow-color, 40%);
+    }
+
+    &-title {
+      flex-grow: 1;
+	  margin: 3px;
+    }
+
+    &-author {
+	  margin: 3px;
+      flex-shrink: 0;
+    }
+
+    &-pages {
+	  margin: 3px;
+      flex-shrink: 0;
+    }
+
+	&-read {
+		background-color: rgb(143, 248, 143);
+	}
+  }
+
+  
+}
+
+.add {
+  &-ui {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+
+    input[type="text"] {
+      height: 2.5rem;
+      max-width: 75%;
+      line-height: 75%;
+      padding: 0.75rem 0.3rem;
+      border: 2px solid lightgray;
+      border-radius: 8px;
+      font-size: 1.3rem;
+
+      &:hover {
+        box-shadow: 0 0 5px rgb(97, 97, 247);
+      }
+      &:active {
+        border: 3px solid rgb(96, 96, 194);
+      }
+      &:focus {
+        @extend input, [type="text"], :active;
+        outline: none;
+      }
+    }
+
+    input[type="number"] {
+      @extend input, [type="text"];
+    }
+
+    input[type="submit"] {
+      padding: 0.5rem;
+      border-radius: 10px;
+      border: 0.5px solid gray;
+
+      &:hover {
+        box-shadow: 0 0 5px blue;
+      }
+      &:active {
+        box-shadow: 2px 2px 2px blue;
+      }
+    }
+
+    input[type="checkbox"] {
+      height: 1.3rem;
+      width: 1.3rem;
+    }
+  }
+  &-box {
+    min-width: 50%;
+    min-height: 50%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 8px whitesmoke;
+    padding: 1rem;
+  }
+  &-form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &-book {
+    &-ui {
+      display: block;
+      margin: 0.75rem;
+      font-size: 1.5rem;
+      padding: 0.5rem;
+    }
+  }
+}
+
+footer {
+  flex-shrink: 0;
+  text-align: center;
+  padding: 1rem;
+  font {
+    size: 1.5rem;
+  }
+
+  i {
+    font-size: 1.1rem;
+    margin-left: 0.3rem;
+    color: black;
+    transition: 0.7s;
+
+    &:hover {
+      transform: scale(1.5) rotate(720deg);
+    }
+  }
+}

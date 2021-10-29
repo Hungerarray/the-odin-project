@@ -1,0 +1,602 @@
+[
+  {
+    "title": "The Book of Common Law",
+    "author": "Elana Carlson",
+    "pages": 937,
+    "read": true
+  },
+  {
+    "title": "Carnivorous Gardening",
+    "author": "Julia Barclay",
+    "pages": 762,
+    "read": true
+  },
+  {
+    "title": "The Book of Twelve Seasons",
+    "author": "Sufyan Atkinson",
+    "pages": 512,
+    "read": true
+  },
+  {
+    "title": "A Journey Beyond the Veil",
+    "author": "Arisha Boyce",
+    "pages": 302,
+    "read": true
+  },
+  {
+    "title": "Raising Weasels With Confidence",
+    "author": "Conor Clay",
+    "pages": 769,
+    "read": false
+  },
+  {
+    "title": "What Lights Shine Forever? A History of Sun Deities",
+    "author": "Samiya Simmons",
+    "pages": 723,
+    "read": true
+  },
+  {
+    "title": "A Short History of Dwarves",
+    "author": "Fatimah Hester",
+    "pages": 570,
+    "read": true
+  },
+  {
+    "title": "What Color Is Your Dragon?",
+    "author": "Aliesha Pollard",
+    "pages": 587,
+    "read": false
+  },
+  {
+    "title": "Samwell\u2019s Guide to Arms and Armor",
+    "author": "Edith Mellor",
+    "pages": 264,
+    "read": false
+  },
+  {
+    "title": "The Silent Bard and Other Myths",
+    "author": "Arfa Mcloughlin",
+    "pages": 110,
+    "read": false
+  },
+  {
+    "title": "The Letters of Saint Cuthbert",
+    "author": "Reese Meadows",
+    "pages": 464,
+    "read": true
+  },
+  {
+    "title": "Secret Doors and Passages (bad poetry collection)",
+    "author": "Addison Gates",
+    "pages": 206,
+    "read": false
+  },
+  {
+    "title": "A Journeyman\u2019s Guide to Barrel Making",
+    "author": "Reegan Mcdermott",
+    "pages": 614,
+    "read": false
+  },
+  {
+    "title": "Basic Carpentry For Complex Dungeons",
+    "author": "Nikodem Shaw",
+    "pages": 547,
+    "read": true
+  },
+  {
+    "title": "The Great Extraplanar Hoax",
+    "author": "Allen Hubbard",
+    "pages": 129,
+    "read": false
+  },
+  {
+    "title": "Fungal Crop Rotation For Underground Dwellers",
+    "author": "Raj Brandt",
+    "pages": 952,
+    "read": true
+  },
+  {
+    "title": "How To Use a Sundial In the Rain",
+    "author": "Elleanor Greenaway",
+    "pages": 955,
+    "read": false
+  },
+  {
+    "title": "Farming Wheat, Barley, and Giant Frogs",
+    "author": "Chris Beattie",
+    "pages": 423,
+    "read": false
+  },
+  {
+    "title": "A Caretaker\u2019s Guide to Giant Centipedes",
+    "author": "Evie-Mai Schofield",
+    "pages": 913,
+    "read": false
+  },
+  {
+    "title": "101 Untraceable Poisons",
+    "author": "Jennie Best",
+    "pages": 333,
+    "read": true
+  },
+  {
+    "title": "All Giants Great and Small",
+    "author": "Yvonne Oconnor",
+    "pages": 858,
+    "read": false
+  },
+  {
+    "title": "50 Things To Do With a Dead Lich",
+    "author": "Nansi Duggan",
+    "pages": 846,
+    "read": false
+  },
+  {
+    "title": "Beauty Is In the Eyes of the Beholder",
+    "author": "Daanyal Schneider",
+    "pages": 810,
+    "read": false
+  },
+  {
+    "title": "Planning Your Castle Construction",
+    "author": "Natasha Sloan",
+    "pages": 663,
+    "read": false
+  },
+  {
+    "title": "Tavern Management In Rural Areas",
+    "author": "Kamila Chen",
+    "pages": 242,
+    "read": true
+  },
+  {
+    "title": "The Assassin\u2019s Inspiration (just a hollowed-out book with a dagger hidden in it)",
+    "author": "Kai Johnson",
+    "pages": 417,
+    "read": true
+  },
+  {
+    "title": "Accidental Pickpocketing and Other Excuses",
+    "author": "Mark Hutton",
+    "pages": 336,
+    "read": true
+  },
+  {
+    "title": "Spells We Are Still Trying To Make Work",
+    "author": "Finley Fry",
+    "pages": 475,
+    "read": false
+  },
+  {
+    "title": "Samwell\u2019s Guide To Wands",
+    "author": "Jonah Gillespie",
+    "pages": 919,
+    "read": false
+  },
+  {
+    "title": "The Legend of Tucker\u2019s Kobolds",
+    "author": "Evan Brook",
+    "pages": 224,
+    "read": true
+  },
+  {
+    "title": "Potatoes That Resemble Goblins: A Pictorial",
+    "author": "Maya Beil",
+    "pages": 651,
+    "read": false
+  },
+  {
+    "title": "Basic Ammunition Accounting for Archers, Crossbowers, and Slingers",
+    "author": "Liyah Palmer",
+    "pages": 632,
+    "read": false
+  },
+  {
+    "title": "Vines: Small, Medium, Giant",
+    "author": "Ivo Castro",
+    "pages": 507,
+    "read": true
+  },
+  {
+    "title": "Defeating a Heavy Iron Gate",
+    "author": "Jeanne Griffin",
+    "pages": 543,
+    "read": true
+  },
+  {
+    "title": "Counting to Ten for Orcs",
+    "author": "Dilara Dickson",
+    "pages": 823,
+    "read": true
+  },
+  {
+    "title": "The Arrow of Benevolent Intent",
+    "author": "Emmie Mitchell",
+    "pages": 486,
+    "read": false
+  },
+  {
+    "title": "Monstrous Philosophies",
+    "author": "Ayyan O'Moore",
+    "pages": 156,
+    "read": false
+  },
+  {
+    "title": "Thirty Ways To Skin a Dragon",
+    "author": "Finnlay Haley",
+    "pages": 168,
+    "read": true
+  },
+  {
+    "title": "Warlock vs Sorcerer: How To Spot the Difference",
+    "author": "Shamas Witt",
+    "pages": 143,
+    "read": true
+  },
+  {
+    "title": "Tower Defenses, What Works and What Does Not",
+    "author": "Tehya Knight",
+    "pages": 799,
+    "read": false
+  },
+  {
+    "title": "Samwell\u2019s Guide To Holy Symbols",
+    "author": "Kaeden Hibbert",
+    "pages": 217,
+    "read": false
+  },
+  {
+    "title": "Prayers For the Righteous",
+    "author": "Koby Hussain",
+    "pages": 391,
+    "read": false
+  },
+  {
+    "title": "Identifying Grubs, Worms, and Sentient Fungi",
+    "author": "Balraj Rodriguez",
+    "pages": 737,
+    "read": true
+  },
+  {
+    "title": "Wyverns, Wyrms, Drakes & Dragons: The Differences",
+    "author": "Inara Alexander",
+    "pages": 638,
+    "read": true
+  },
+  {
+    "title": "Recipes For Disaster: A Cookbook",
+    "author": "Adeeb Hamer",
+    "pages": 431,
+    "read": true
+  },
+  {
+    "title": "A Field Guide To Fey",
+    "author": "Nabil Delarosa",
+    "pages": 272,
+    "read": true
+  },
+  {
+    "title": "1001 Things To Do Underground",
+    "author": "Rahima Grey",
+    "pages": 890,
+    "read": true
+  },
+  {
+    "title": "A History of Thieve Guilds",
+    "author": "Evie-May Whitfield",
+    "pages": 601,
+    "read": true
+  },
+  {
+    "title": "Weather Manipulation and Farm Management",
+    "author": "Nabiha Cortez",
+    "pages": 774,
+    "read": false
+  },
+  {
+    "title": "The Whole Hollow World Atlas",
+    "author": "Atlanta Hastings",
+    "pages": 416,
+    "read": true
+  },
+  {
+    "title": "The Great Bird Hoax",
+    "author": "Axel Ritter",
+    "pages": 954,
+    "read": true
+  },
+  {
+    "title": "The Physics Behind interdimensional Portals, Bags, and Holes",
+    "author": "Ifrah Conrad",
+    "pages": 618,
+    "read": true
+  },
+  {
+    "title": "What\u2019s Behind That Door? A Listener\u2019s Handbook",
+    "author": "Sahil Mcgill",
+    "pages": 834,
+    "read": false
+  },
+  {
+    "title": "Turnips. The Gods\u2019 Own Gift To the World",
+    "author": "Georgia Krause",
+    "pages": 297,
+    "read": true
+  },
+  {
+    "title": "How To Make a Lantern Out Of a Skull",
+    "author": "Kaylie Hendricks",
+    "pages": 872,
+    "read": true
+  },
+  {
+    "title": "Candlemaking for Clerics",
+    "author": "Rhea Howell",
+    "pages": 694,
+    "read": false
+  },
+  {
+    "title": "Surveillance Techniques That Don\u2019t Work",
+    "author": "Chanelle Russo",
+    "pages": 270,
+    "read": false
+  },
+  {
+    "title": "The Myth of the Useful Bard",
+    "author": "Aislinn Burris",
+    "pages": 829,
+    "read": true
+  },
+  {
+    "title": "Samwell\u2019s Guide To Useless Glyphs",
+    "author": "Cherise Neville",
+    "pages": 413,
+    "read": false
+  },
+  {
+    "title": "Thieves Cant\u2026 or Can They?",
+    "author": "Drake Lang",
+    "pages": 472,
+    "read": false
+  },
+  {
+    "title": "Hunting Mushrooms In the Dark",
+    "author": "Hadiya Vickers",
+    "pages": 126,
+    "read": true
+  },
+  {
+    "title": "Cursed Idols and Relics of the Desert",
+    "author": "Daniele Hurst",
+    "pages": 139,
+    "read": false
+  },
+  {
+    "title": "Climate Change During the Dark Wizard Times",
+    "author": "Abubakar Woolley",
+    "pages": 104,
+    "read": false
+  },
+  {
+    "title": "Airships. An Inflatable History",
+    "author": "Archibald Morton",
+    "pages": 133,
+    "read": false
+  },
+  {
+    "title": "How To Live Forever\u2014or Close To It",
+    "author": "Ianis Wynn",
+    "pages": 765,
+    "read": true
+  },
+  {
+    "title": "Giant Flowers. Friend or Foe?",
+    "author": "Dixie Villarreal",
+    "pages": 137,
+    "read": false
+  },
+  {
+    "title": "The Most Grand Illusion",
+    "author": "Johnathon Kemp",
+    "pages": 583,
+    "read": false
+  },
+  {
+    "title": "Daily Affirmations for Tyrants",
+    "author": "Rhyley Simon",
+    "pages": 955,
+    "read": true
+  },
+  {
+    "title": "Hidden Staircases and Secret Doors",
+    "author": "Tonya Greene",
+    "pages": 505,
+    "read": true
+  },
+  {
+    "title": "Managing Your Giant Vines",
+    "author": "Tayyib Gregory",
+    "pages": 822,
+    "read": true
+  },
+  {
+    "title": "How To Get Way With Murder",
+    "author": "Teejay Arellano",
+    "pages": 278,
+    "read": false
+  },
+  {
+    "title": "Poisoned Pens. Allegory or Literal Danger?",
+    "author": "Aneurin Mann",
+    "pages": 121,
+    "read": true
+  },
+  {
+    "title": "Sonnets for Sorcerers",
+    "author": "Malaki Rivers",
+    "pages": 340,
+    "read": true
+  },
+  {
+    "title": "Seven Knights For Seven Dragons",
+    "author": "Hamish Kane",
+    "pages": 646,
+    "read": true
+  },
+  {
+    "title": "River Navigation Through Magical Forests",
+    "author": "Isabelle Morse",
+    "pages": 415,
+    "read": false
+  },
+  {
+    "title": "A Biological Survey of Gnomish \u201cPeople\u201d",
+    "author": "Asma Rose",
+    "pages": 822,
+    "read": true
+  },
+  {
+    "title": "Mysterious Structures That Glow",
+    "author": "Colleen Franco",
+    "pages": 646,
+    "read": true
+  },
+  {
+    "title": "Samwell\u2019s Guide To Blue-Colored Potions",
+    "author": "Douglas Burch",
+    "pages": 141,
+    "read": false
+  },
+  {
+    "title": "The Unlikely Romance of Owls and Bears",
+    "author": "Lara Daugherty",
+    "pages": 892,
+    "read": false
+  },
+  {
+    "title": "Rocks That Sort of Look Like Orcs",
+    "author": "Taine Wickens",
+    "pages": 906,
+    "read": false
+  },
+  {
+    "title": "Animal Husbandry and Midwifery",
+    "author": "Ansh Butt",
+    "pages": 672,
+    "read": true
+  },
+  {
+    "title": "Castle Gardens For Long Sieges",
+    "author": "Carrie Storey",
+    "pages": 276,
+    "read": false
+  },
+  {
+    "title": "Doors That Don\u2019t Go Anywhere and Other Dungeon Tricks",
+    "author": "Shayne Melendez",
+    "pages": 786,
+    "read": true
+  },
+  {
+    "title": "How Green Is My Goblin?",
+    "author": "Tamanna Betts",
+    "pages": 739,
+    "read": true
+  },
+  {
+    "title": "How To Tell a Brew Is True",
+    "author": "Nathaniel Booker",
+    "pages": 182,
+    "read": true
+  },
+  {
+    "title": "Cubicles & Commuters: A Fantasy Roleplaying Guide",
+    "author": "Jazmyn Cowan",
+    "pages": 315,
+    "read": true
+  },
+  {
+    "title": "Explosive Grass and Other Lawn Care Tips",
+    "author": "Aled Magana",
+    "pages": 253,
+    "read": false
+  },
+  {
+    "title": "Is Your Spouse a Polymorph? 50 Signs They Might Be",
+    "author": "Haseeb Bowman",
+    "pages": 246,
+    "read": true
+  },
+  {
+    "title": "Plots, Intrigue, and Politics",
+    "author": "Che Battle",
+    "pages": 753,
+    "read": false
+  },
+  {
+    "title": "The Book of Uncommon Law",
+    "author": "Samson Walls",
+    "pages": 967,
+    "read": true
+  },
+  {
+    "title": "Feeding Your Village On One Enlarged Vegetable a Year",
+    "author": "Aiesha Roy",
+    "pages": 620,
+    "read": false
+  },
+  {
+    "title": "A Simple Guide To Vampires",
+    "author": "Aras Medina",
+    "pages": 110,
+    "read": false
+  },
+  {
+    "title": "Unwrapping the Mystery of Mummies",
+    "author": "Renesmee Dale",
+    "pages": 609,
+    "read": true
+  },
+  {
+    "title": "Ghost Stories Written By Ghosts",
+    "author": "Jamel Hagan",
+    "pages": 796,
+    "read": true
+  },
+  {
+    "title": "Samwell\u2019s Guide To Love and Love Potions",
+    "author": "Reem Wilkerson",
+    "pages": 679,
+    "read": true
+  },
+  {
+    "title": "The Underground Horoscope",
+    "author": "Marnie Page",
+    "pages": 437,
+    "read": false
+  },
+  {
+    "title": "Orienteering Without a Compass",
+    "author": "Teegan Williamson",
+    "pages": 385,
+    "read": true
+  },
+  {
+    "title": "How To Work a Sextant",
+    "author": "Dorian Farley",
+    "pages": 331,
+    "read": true
+  },
+  {
+    "title": "Fabled Treasures and Monsters",
+    "author": "Freyja Walton",
+    "pages": 713,
+    "read": true
+  },
+  {
+    "title": "Puppetry For Evil and Parties",
+    "author": "Subhaan Appleton",
+    "pages": 418,
+    "read": true
+  }
+]

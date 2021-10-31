@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  background-color: #705493;
+}
+body #gameBoard {
+  margin: auto;
+  width: clamp(50%, 450px, 90%);
+  height: clamp(50%, 550px, 90%);
+  background-color: black;
+  display: grid;
+  grid-template: repeat(3, 1fr)/repeat(3, 1fr);
+  gap: 0.5rem;
+}
+body .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ebe3e3;
+  box-shadow: 0 0 8px whitesmoke;
+  font-size: 3rem;
+}
+body .box:hover {
+  box-shadow: 0 0 8px #5b5bec;
+  filter: drop-shadow(0 0 8px #5b5bec);
+}
+body .box-disabled {
+  cursor: not-allowed;
+}
+body .box-disabled:hover {
+  box-shadow: 0 0 8px gray;
+  filter: drop-shadow(0 0 8px red);
+}
+body #backDrop {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.452);
+  visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body #backDrop .message {
+  width: clamp(50%, 500px, 75%);
+  height: clamp(50%, 400px, 75%);
+  background-color: #e6e2e2;
+  box-shadow: 0 0 5px whitesmoke;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  justify-content: space-evenly;
+}
+body #backDrop .message-text {
+  font-size: 3rem;
+}
+body #backDrop .message-button {
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-radius: 20px;
+}
+body #backDrop .message-button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 5px blue;
+}
+
+footer {
+  margin-top: auto;
+  flex-shrink: 0;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: whitesmoke;
+  filter: drop-shadow(0 0 5px white);
+}
+footer a {
+  text-decoration: none;
+}
+footer i {
+  color: white;
+  transition: 0.7s;
+}
+footer i:hover {
+  transform: scale(1.3) rotate(720deg);
+}
+
+/*# sourceMappingURL=style.css.map */

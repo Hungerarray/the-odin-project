@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  @include flex-center();
+  flex-flow: column;
+  background-color: #705493;
+
+  #gameBoard {
+    margin: auto;
+    width: clamp(50%, 450px, 90%);
+    height: clamp(50%, 550px, 90%);
+    background-color: black;
+
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    gap: 0.5rem;
+  }
+
+  .box {
+    @include flex-center();
+    background-color: rgb(235, 227, 227);
+    box-shadow: 0 0 8px whitesmoke;
+
+    font-size: 3rem;
+
+    &:hover {
+      box-shadow: 0 0 8px rgb(91, 91, 236);
+      filter: drop-shadow(0 0 8px rgb(91, 91, 236));
+    }
+
+    &-disabled {
+      cursor: not-allowed;
+
+      &:hover {
+        box-shadow: 0 0 8px gray;
+        filter: drop-shadow(0 0 8px red);
+      }
+    }
+  }
+
+  #backDrop {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.452);
+    visibility: hidden;
+    @include flex-center();
+
+    .message {
+      width: clamp(50%, 500px, 75%);
+      height: clamp(50%, 400px, 75%);
+      background-color: rgb(230, 226, 226);
+      box-shadow: 0 0 5px whitesmoke;
+      border-radius: 10px;
+      @include flex-center();
+      flex-flow: column;
+      justify-content: space-evenly;
+
+      &-text {
+        font-size: 3rem;
+      }
+
+      &-button {
+        font-size: 1.5rem;
+        padding: 1rem;
+        border-radius: 20px;
+
+        &:hover {
+          cursor: pointer;
+          box-shadow: 0 0 5px blue;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  margin-top: auto;
+  flex-shrink: 0;
+  padding: 1rem;
+
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: whitesmoke;
+  filter: drop-shadow(0 0 5px white);
+  a {
+    text-decoration: none;
+  }
+  i {
+    color: white;
+    transition: 0.7s;
+
+    &:hover {
+      transform: scale(1.3) rotate(720deg);
+    }
+  }
+}

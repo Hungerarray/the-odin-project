@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica:ital@1&family=Nanum+Myeongjo:wght@700&family=Niconne&family=Romanesco&display=swap");
+
+#menu {
+  width: clamp(75%, 750px, 85%);
+  min-height: 95%;
+  padding: 2rem;
+  margin: 3rem 0;
+  background-color: rgba(0, 0, 0, 0.692);
+  color: white;
+  text-align: center;
+
+  display: grid;
+  grid-template-columns: repeat(5, minmax(100px, 1fr));
+  grid-template-rows: auto;
+  grid-template-areas:
+    ". menu menu menu ."
+    ". . submenu submenu ."
+    "item1 item1 item1 image1 image1"
+    "image2 image2 item2 item2 item2"
+    "image2 image2 item3 item3 item3";
+  gap: 10px;
+
+  &-title {
+    grid-area: menu;
+    font-size: 4rem;
+    margin: 1rem;
+    text-transform: uppercase;
+    font-family: "Romanesco", cursive;
+  }
+
+  &-subtitle {
+    grid-area: submenu;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+    font-family: "Niconne", cursive;
+  }
+
+  &-snack {
+    grid-area: item1;
+  }
+
+  &-dessert {
+    grid-area: item2;
+  }
+
+  &-drinks {
+    grid-area: item3;
+  }
+
+  &-image1 {
+    grid-area: image1;
+  }
+
+  &-image2 {
+    grid-area: image2;
+  }
+
+  img {
+    max-width: 98%;
+    max-height: 98%;
+  }
+
+  li {
+    list-style: none;
+    font-size: 1.5rem;
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 700;
+  }
+}
+
+.menu-list-title {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin: 0.75rem;
+  font-family: "IM Fell Double Pica", serif;
+}

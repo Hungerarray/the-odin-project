@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&family=PT+Sans&display=swap');
+
+nav {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding: 1rem;
+	flex-shrink: 0;
+	background-color: rgba(36, 16, 56, 0.52);
+
+	span {
+		color: blueviolet;
+		text-transform: uppercase;
+		font-size: 3rem;
+		font-family: 'Niconne', cursive;
+	}
+
+	ul {
+		margin-left: auto;
+		display: flex;
+		gap: 1rem;
+		list-style: none;
+
+		li {
+			cursor: pointer;
+			text-transform: capitalize;
+			filter: drop-shadow(0 0 2px whitesmoke);
+			font-size: 1.75rem;
+			transition: 0.5s;
+			font-family: 'PT Sans', sans-serif;
+
+			&:hover {
+				transform: translateY(-10px);
+			}
+		}
+	}
+
+	.clicked {
+		color: red;
+		filter: drop-shadow(0 0 2px black);
+	}
+}

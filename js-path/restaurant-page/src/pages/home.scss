@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+#home {
+  width: clamp(75%, 700px, 90%);
+  height: auto;
+  text-align: center;
+  padding: 3rem;
+  filter: drop-shadow(0 0 10px black);
+}
+
+.home {
+  &-title {
+    font-size: 3rem;
+    margin: 2rem;
+    color: burlywood;
+		font-weight: 700;
+		font-family: 'Noto Sans', sans-serif;
+  }
+
+  &-text {
+    font-size: 2rem;
+    color: rgb(201, 188, 170);
+		font-family: 'Courgette', cursive;
+  }
+}
